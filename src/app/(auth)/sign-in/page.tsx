@@ -50,7 +50,7 @@ const Page = () => {
           description:
             result.error === 'CredentialsSignin'
               ? 'Incorrect username or password'
-              : result.error.replace(/'/g, '&apos;'),
+              : result.error,
           variant: 'destructive',
         })
       } else {
