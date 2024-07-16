@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const page = () => {
-//   return (
-//     <div>
-//       Sign In
-//     </div>
-//   )
-// }
-
-// export default page
-
 'use client'
 import { useToast } from '@/components/ui/use-toast'
 import { SignInSchema } from '@/schemas/signInSchema'
@@ -140,7 +128,7 @@ const Page = () => {
         </Form>
         <div className='text-center m-4'>
           <p>
-            Don&apos;t have an account?
+            Dont have an account?
             <Link
               href={'/sign-up'}
               className='text-blue-600 hover:text-blue-800'
