@@ -48,9 +48,10 @@ const Page = () => {
         toast({
           title: 'Login Failed',
           description:
-            result.error === 'CredentialsSignin'
-              ? 'Incorrect username or password'
-              : result.error,
+            // result.error === 'CredentialsSignin'
+              // ? 
+              'Incorrect username or password',
+              // : result.error,
           variant: 'destructive',
         })
       } else {
