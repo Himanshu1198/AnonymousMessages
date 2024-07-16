@@ -10,13 +10,12 @@ import { ApiResponse } from '@/types/ApiResponse'
 import { zodResolver } from '@hookform/resolvers/zod'
 import axios, { AxiosError } from 'axios'
 import { Loader2, RefreshCcw } from 'lucide-react'
-import { User } from 'next-auth'
 import { useSession } from 'next-auth/react'
 import React, { useCallback, useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect'
 
-function page() {
+const Page = () => {
   const [messages, setMessages] = useState<Message[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [isSwtichLoading, setIsSwitchLoading] = useState(false)
@@ -201,4 +200,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

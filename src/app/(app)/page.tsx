@@ -11,7 +11,7 @@ import {
 import Messages from '@/messages.json'
 import Autoplay from 'embla-carousel-autoplay'
 
-function Home() {
+const Home = () => {
   return (
     <>
       <main className='flex-grow flex flex-col items-center justify-center px-4 md:px-24 py-12'>
