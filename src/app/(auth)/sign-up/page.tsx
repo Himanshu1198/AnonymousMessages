@@ -133,9 +133,6 @@ const Page = () => {
                   >
                     {usernameMessage}
                   </p>
-                  {/* <FormDescription>
-                    This is your public display name.
-                  </FormDescription> */}
                   <FormMessage />
                 </FormItem>
               )}
@@ -149,9 +146,6 @@ const Page = () => {
                   <FormControl>
                     <Input placeholder='Email' {...field} />
                   </FormControl>
-                  {/* <FormDescription>
-                    This is your public display name.
-                  </FormDescription> */}
                   <FormMessage />
                 </FormItem>
               )}
@@ -185,7 +179,7 @@ const Page = () => {
         </Form>
         <div className='text-center m-4'>
           <p>
-            Already a member?{'\t'}
+            Already a member?
             <Link
               href={'/sign-in'}
               className='text-blue-600 hover:text-blue-800'
