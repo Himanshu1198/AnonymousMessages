@@ -7,6 +7,9 @@
 # Sign Up
 ![image](https://github.com/user-attachments/assets/6d6a21b7-8d8a-4b06-a19b-d963774b2d4f)
 
+# Verfication
+![image](https://github.com/user-attachments/assets/3d20912e-364f-46e1-9e5e-bc7bd07e3333)
+
 # DashBoard
 ![image](https://github.com/user-attachments/assets/877c73c7-1ebb-4528-a648-8fcde2934a35)
 
