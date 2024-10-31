@@ -19,7 +19,6 @@ import { Button } from '@/components/ui/button'
 import { Loader2 } from 'lucide-react'
 import Link from 'next/link'
 import { signIn } from 'next-auth/react'
-import { Boxes } from '@/components/ui/background-boxes'
 
 const Page = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -49,9 +48,9 @@ const Page = () => {
           title: 'Login Failed',
           description:
             // result.error === 'CredentialsSignin'
-              // ? 
-              'Incorrect username or password',
-              // : result.error,
+            // ?
+            'Incorrect username or password',
+          // : result.error,
           variant: 'destructive',
         })
       } else {
@@ -75,7 +74,6 @@ const Page = () => {
   return (
     <div className='flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 dark:text-white'>
       <div className='absolute inset-0 z-0'>
-        <Boxes className='absolute inset-0 w-full h-screen' />
         <div className='absolute inset-0 bg-slate-900 [mask-image:radial-gradient(transparent,white)] pointer-events-none' />
       </div>
       <div
